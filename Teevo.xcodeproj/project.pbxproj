@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974C83D517CDA77F00E4B43C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974C83D417CDA77F00E4B43C /* UIKit.framework */; };
+		974C83D717CDA77F00E4B43C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974C83D617CDA77F00E4B43C /* Foundation.framework */; };
+		974C83D917CDA77F00E4B43C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974C83D817CDA77F00E4B43C /* CoreGraphics.framework */; };
+		974C83DF17CDA77F00E4B43C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 974C83DD17CDA77F00E4B43C /* InfoPlist.strings */; };
+		974C83E117CDA77F00E4B43C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 974C83E017CDA77F00E4B43C /* main.m */; };
+		974C83E517CDA77F00E4B43C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 974C83E417CDA77F00E4B43C /* AppDelegate.m */; };
+		974C83E717CDA77F00E4B43C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 974C83E617CDA77F00E4B43C /* Default.png */; };
+		974C83E917CDA77F00E4B43C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 974C83E817CDA77F00E4B43C /* Default@2x.png */; };
+		974C83EB17CDA77F00E4B43C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 974C83EA17CDA77F00E4B43C /* Default-568h@2x.png */; };
+		974C83EE17CDA77F00E4B43C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974C83EC17CDA77F00E4B43C /* MainStoryboard_iPhone.storyboard */; };
+		974C83F117CDA77F00E4B43C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974C83EF17CDA77F00E4B43C /* MainStoryboard_iPad.storyboard */; };
+		974C83F417CDA77F00E4B43C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 974C83F317CDA77F00E4B43C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		974C83D117CDA77F00E4B43C /* Teevo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teevo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		974C83D417CDA77F00E4B43C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		974C83D617CDA77F00E4B43C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		974C83D817CDA77F00E4B43C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		974C83DC17CDA77F00E4B43C /* Teevo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Teevo-Info.plist"; sourceTree = "<group>"; };
+		974C83DE17CDA77F00E4B43C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		974C83E017CDA77F00E4B43C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		974C83E217CDA77F00E4B43C /* Teevo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teevo-Prefix.pch"; sourceTree = "<group>"; };
+		974C83E317CDA77F00E4B43C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		974C83E417CDA77F00E4B43C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		974C83E617CDA77F00E4B43C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		974C83E817CDA77F00E4B43C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		974C83EA17CDA77F00E4B43C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		974C83ED17CDA77F00E4B43C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		974C83F017CDA77F00E4B43C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		974C83F217CDA77F00E4B43C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		974C83F317CDA77F00E4B43C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		974C83CE17CDA77F00E4B43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974C83D517CDA77F00E4B43C /* UIKit.framework in Frameworks */,
+				974C83D717CDA77F00E4B43C /* Foundation.framework in Frameworks */,
+				974C83D917CDA77F00E4B43C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974C83C817CDA77F00E4B43C = {
+			isa = PBXGroup;
+			children = (
+				974C83DA17CDA77F00E4B43C /* Teevo */,
+				974C83D317CDA77F00E4B43C /* Frameworks */,
+				974C83D217CDA77F00E4B43C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		974C83D217CDA77F00E4B43C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				974C83D117CDA77F00E4B43C /* Teevo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		974C83D317CDA77F00E4B43C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				974C83D417CDA77F00E4B43C /* UIKit.framework */,
+				974C83D617CDA77F00E4B43C /* Foundation.framework */,
+				974C83D817CDA77F00E4B43C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		974C83DA17CDA77F00E4B43C /* Teevo */ = {
+			isa = PBXGroup;
+			children = (
+				974C83E317CDA77F00E4B43C /* AppDelegate.h */,
+				974C83E417CDA77F00E4B43C /* AppDelegate.m */,
+				974C83EC17CDA77F00E4B43C /* MainStoryboard_iPhone.storyboard */,
+				974C83EF17CDA77F00E4B43C /* MainStoryboard_iPad.storyboard */,
+				974C83F217CDA77F00E4B43C /* ViewController.h */,
+				974C83F317CDA77F00E4B43C /* ViewController.m */,
+				974C83DB17CDA77F00E4B43C /* Supporting Files */,
+			);
+			path = Teevo;
+			sourceTree = "<group>";
+		};
+		974C83DB17CDA77F00E4B43C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				974C83DC17CDA77F00E4B43C /* Teevo-Info.plist */,
+				974C83DD17CDA77F00E4B43C /* InfoPlist.strings */,
+				974C83E017CDA77F00E4B43C /* main.m */,
+				974C83E217CDA77F00E4B43C /* Teevo-Prefix.pch */,
+				974C83E617CDA77F00E4B43C /* Default.png */,
+				974C83E817CDA77F00E4B43C /* Default@2x.png */,
+				974C83EA17CDA77F00E4B43C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		974C83D017CDA77F00E4B43C /* Teevo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974C83F717CDA77F00E4B43C /* Build configuration list for PBXNativeTarget "Teevo" */;
+			buildPhases = (
+				974C83CD17CDA77F00E4B43C /* Sources */,
+				974C83CE17CDA77F00E4B43C /* Frameworks */,
+				974C83CF17CDA77F00E4B43C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teevo;
+			productName = Teevo;
+			productReference = 974C83D117CDA77F00E4B43C /* Teevo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		974C83C917CDA77F00E4B43C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Gaurav Bhardwaj";
+			};
+			buildConfigurationList = 974C83CC17CDA77F00E4B43C /* Build configuration list for PBXProject "Teevo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 974C83C817CDA77F00E4B43C;
+			productRefGroup = 974C83D217CDA77F00E4B43C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				974C83D017CDA77F00E4B43C /* Teevo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		974C83CF17CDA77F00E4B43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974C83DF17CDA77F00E4B43C /* InfoPlist.strings in Resources */,
+				974C83E717CDA77F00E4B43C /* Default.png in Resources */,
+				974C83E917CDA77F00E4B43C /* Default@2x.png in Resources */,
+				974C83EB17CDA77F00E4B43C /* Default-568h@2x.png in Resources */,
+				974C83EE17CDA77F00E4B43C /* MainStoryboard_iPhone.storyboard in Resources */,
+				974C83F117CDA77F00E4B43C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		974C83CD17CDA77F00E4B43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974C83E117CDA77F00E4B43C /* main.m in Sources */,
+				974C83E517CDA77F00E4B43C /* AppDelegate.m in Sources */,
+				974C83F417CDA77F00E4B43C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		974C83DD17CDA77F00E4B43C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974C83DE17CDA77F00E4B43C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		974C83EC17CDA77F00E4B43C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974C83ED17CDA77F00E4B43C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		974C83EF17CDA77F00E4B43C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974C83F017CDA77F00E4B43C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		974C83F517CDA77F00E4B43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		974C83F617CDA77F00E4B43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		974C83F817CDA77F00E4B43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teevo/Teevo-Prefix.pch";
+				INFOPLIST_FILE = "Teevo/Teevo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		974C83F917CDA77F00E4B43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teevo/Teevo-Prefix.pch";
+				INFOPLIST_FILE = "Teevo/Teevo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		974C83CC17CDA77F00E4B43C /* Build configuration list for PBXProject "Teevo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974C83F517CDA77F00E4B43C /* Debug */,
+				974C83F617CDA77F00E4B43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974C83F717CDA77F00E4B43C /* Build configuration list for PBXNativeTarget "Teevo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974C83F817CDA77F00E4B43C /* Debug */,
+				974C83F917CDA77F00E4B43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 974C83C917CDA77F00E4B43C /* Project object */;
+}
